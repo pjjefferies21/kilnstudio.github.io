@@ -1,0 +1,74 @@
+body{
+  font-family: 'avenir', helvetica, sans-serif;
+  background-color: #ffffff;
+
+}
+.container{
+width: 80%;
+margin: auto;
+}
+/** Nav begins **/
+.nav_ul li {
+  padding: 0 30px 0 30px;
+  display: inline;
+}
+
+.nav a {
+  text-decoration: none;
+  font-family: 'Avenir', 'Helvetica', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  color: #fff;
+  transition: 0.5s;
+}
+.nav a:hover{
+  color: #ADAD9E;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-family: 'Avenir', 'Helvetica', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+}
+.nav {
+  text-align: left;
+  margin-left: 100px;
+  margin-top: -30px;
+}
+/** nav ends**/
+.logo_top{
+  margin-top: -10px;
+  margin-left: 40px;
+}
+header{
+height: 100vh;
+background-size: cover;
+background-color: #D1CFB4;
+display: flex;
+
+}
+
+header h2{
+font-size: 30px;
+color: #ffffff;
+margin-top: -5px;
+}
+
+.intro{
+height: 70vh;
+background-color: #ffffff;
+display: flex;
+}
+.logo_feature{
+text-align: center;
+margin-top: 300px;
+}
+
+.feature_image{
+  margin-top: 80px;
+  margin-left: 80px;
+}
