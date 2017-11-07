@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>kiln studio</title>
+  <link rel="stylesheet" href="master.css">
+  <link rel="stylesheet" href="bootstrap-grid.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="bootstrap-grid.css integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"">
+</head>
+  <body>
+<header class="work">
+  <div class="logo_top">
+    <img src="./assets/k_black72.png" alt="">
+  </div>
+  <div class="nav">
+<nav>
+<ul class="nav_ul_black">
+<li><a href="./index.html">Home</a></li>
+<li><a href="./about.html">About</a></li>
+<li ><a href="./work.html">work</a></li>
+<li class="current"><a href="#">Contact</a></li>
+
+</ul>
+</nav>
+</div>
+  <h1>contact us</h1>
+</header>
+<!-- Input End -->
+<div class="container">
+  <h2>Flick us a message</h2>
+  <p style="color:black; font-size:16px;">The form below contains two input elements; one of type text and one of type password:</p>
+  <form>
+    <div class="form-group">
+      <label for="usr">Name:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="pwd">
+    </div>
+  </form>
+  <div class="form-group">
+  <label for="comment">Comment:</label>
+  <textarea class="form-control" rows="7" id="comment"></textarea>
+</div>
+<button type="button" class="btn btn-default">submit</button>
+  <div id="map">My map will go here</div>
+  <script>
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(-37.7870, 175.2793),
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+</div>
+<div class="footer">
+<p><a href="#">Graphic Design</a> - <a href="#">Web Design</a> - <a href="#">Branding</a><br><br>KilnStudio&copy 2017</p>
+<div class="footer_logo">
+  <img src="./assets/kiln_logo72.png" alt="">
+</div>
+</div>
+  </body>
+</html>
